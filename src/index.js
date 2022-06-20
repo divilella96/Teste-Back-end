@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.listen(port);
 
-// inserir rota aqui. 
-
+// Rota 
+app.use('/universities', require('./routes/universitiesRoute.js'));
 
 // conectando ao banco de dados
 mongoose.connect(database_url);
