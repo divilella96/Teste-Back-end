@@ -19,6 +19,9 @@ app.use('/universities', require('./routes/universitiesRoute.js'));
 // conectando ao banco de dados
 mongoose.connect(database_url);
 
+if(process.argv.includes('scrapper')){
+    require('./scrapper/');
+}
 
 
 
