@@ -1,0 +1,25 @@
+{
+  "name": "teste-back-end",
+  "version": "1.0.0",
+  "description": "1 - O objetivo do teste é varrer uma API que retorna todas as universidades contidas em cada país da lista fornecida e salvar estas informações no banco de dados.  \r 2 - O objetivo do teste é criar uma API que viabilize um CRUD (create, retrieve, update, delete)\r das universidades anteriormente cadastradas no MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divilella96/Teste-Back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divilella96/Teste-Back-end/issues"
+  },
+  "homepage": "https://github.com/divilella96/Teste-Back-end#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  }
+}
