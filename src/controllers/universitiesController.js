@@ -5,10 +5,10 @@ Método para listagem de Universidades:
 ○ GET /universities
     ■ Lista todas as universidades do banco de dados.
     ■ Retornar os campos _id, nome, país e estado.
-○ Permitir filtro por país. Exemplo GET /universities?country=brazil
-○ O método de listagem deverá retornar no máximo 20 registros por página.
-○ Deverá ser possível informar a página na requisição para ter acesso a todos
-os registros.
+    => Permitir filtro por país. Exemplo GET /universities?country=brazil
+    => O método de listagem deverá retornar no máximo 20 registros por página.
+    => Deverá ser possível informar a página na requisição para ter acesso a todos
+       os registros.
 */
 
 const getAll = (req, res) => {
@@ -28,7 +28,7 @@ const getAll = (req, res) => {
 
 /*
 ● Método para buscar a universidade por _id.
-    ○ GET /universities/:id (busca dados da universidade indicada pelo _id)
+    => GET /universities/:id (busca dados da universidade indicada pelo _id)
     ■ Retorna todos os dados armazenados da universidade em questão.
  */
 
