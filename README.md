@@ -16,12 +16,12 @@ das universidades anteriormente cadastradas no MongoDB.
 - `3º Passo` `Informações do banco de dados e porta para API`: no arquivo .env deve se informar os dados relacionados ao bancos e porta. Exemplo:
 
 ```cmd
-        // Porta que será executado o servidor
-         PORT=3030
+         // Porta que será executado o servidor
+            PORT=3030
          // Url do banco de dados (com '/' no final) 
-         DATABASE_URL=mongodb://localhost:27017/
+            DATABASE_URL=mongodb://localhost:27017/
          // Nome do banco de dados
-         DATABASE_DB=universidades
+            DATABASE_DB=universidades
 ```
 
 - `4º Passo` `Iniciando Servidor`: Para iniciar o servidor será necessário utilizar o seguinte comando:
