@@ -9,11 +9,11 @@ das universidades anteriormente cadastradas no MongoDB.
 ## 🔨 Configurações iniciais
 
 - `1º Passo` `Baixe o repositório`: Basta você ir até o https://github.com/divilella96/Teste-Back-end e clonar o mesmo.
-- `2º` `Instalando os modulos e dependencias`: Para efetuar este passo será necessário utilizar o terminal como seguinte comando:
+- `2º` `Instalando os módulos e dependências`: Para efetuar este passo será necessário utilizar o terminal como seguinte comando:
 ```cmd
          npm install
 ```
-- `3º Passo` `Informações do banco de dados e porta para API`: no arquivo .env deve se informar os dados relacionados ao bancos e porta. Exemplo:
+- `3º Passo` `Informações do banco de dados e porta para API`: no arquivo .env deverá se informar os dados relacionados ao bancos e porta. Exemplo:
 
 ```cmd
          // Porta que será executado o servidor
@@ -29,7 +29,7 @@ das universidades anteriormente cadastradas no MongoDB.
          npm start
 ```
 
-- `5º` `Executando o servidor e o scrapper`:Para executar o sevidor e so scrapper simultâneo é necessário utilizar o seguinte comando:
+- `5º Passo` `Executando o servidor e o scrapper`: Para executar sevidor e o scrapper simultâneo é necessário utilizar o seguinte comando:
 ```cmd
          npm run start-scrapper
 ```
@@ -43,7 +43,7 @@ das universidades anteriormente cadastradas no MongoDB.
 ## ✔️ Utilizando os métodos
 
 - `GET` : 
-- `Método para listar as universidades.`  :Retorna os campos: _id, nome, país e estado;
+- `Método para listar as universidades.`: Retorna os campos: _id, nome, país e estado;
 - `Filtro por query country e page, exemplo:`
 ```cmd
          /universities?country=brazil&page=2
