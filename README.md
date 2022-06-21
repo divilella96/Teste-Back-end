@@ -39,6 +39,73 @@ das universidades anteriormente cadastradas no MongoDB.
          npm run test
 ```
 
+
+## ✔️ Utilizando os métodos
+
+- `GET` : 
+- `Método para listar as universidades.`  :Retorna os campos: _id, nome, país e estado;
+- `Filtro por query country e page, exemplo:`
+```cmd
+         /universities?country=brazil&page=2
+```
+- `Pesquisar por uma id passada na url`
+```cmd
+         `/universities/:id`
+```
+- `POST` : 
+- `Método para inserir uma nova universidade`:
+- Não serão cadastradas as requisições onde haja duplicidade das propriedades país, estado e nome.
+- Deverá conter um body com as informações:
+
+- `Sigla do país com 2 caracteres (String)` : 
+```
+         alpha_two_code
+```
+
+- `Lista com as URL’s da universidade (Array)` : 
+```
+         web_pages
+```
+
+- `Nome da universidade por extenso (String)` : 
+```
+         name
+```
+
+- `Nome do país por extenso (String)` : 
+```
+         country
+```
+
+- `Lista de domínios da universidade (Array)` : 
+```
+         domains
+```
+
+- `Sigla do estado onde fica a universidade se houver (String)` : 
+```
+         state-province
+```
+
+
+- `PUT` : 
+- `Método que atualiza uma universidade pelo ID inserido na url.`  :
+```
+         `/universities/:id`
+```
+- Atualiza apenas as informações de: 
+```
+         - web_pages
+         - name 
+         - domains.
+```
+
+- `DELETE` : 
+- `Método que deleta uma universidade pelo ID inserido na url.`  :
+```
+         `/universities/:id`
+```
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Node.js``
