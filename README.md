@@ -112,4 +112,4 @@ das universidades anteriormente cadastradas no MongoDB.
 - ``MongoDB``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/divilella/Teste-Back-end).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/divilella96/Teste-Back-end).
